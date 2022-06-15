@@ -1,0 +1,72 @@
+div {
+    text-align: center;}
+
+a{
+    border: 1px solid black;
+    padding: 5px;
+    color: white;
+    background-color:rgb(156, 143, 143);
+    text-decoration: none;
+}a:hover{
+    border: 2px solid yellow;
+    color: white;
+    background-color: black;
+}
+
+#matrix1,
+#matrix2,
+#resultmatrix {
+
+    border: 1px solid red;
+    padding: 5px;
+    margin: 3px;
+    display: inline-block;
+    
+}
+
+#matrix1>input,
+#matrix2>input,
+#resultmatrix>input,#getinput1,#getinput2 {
+    border: 1px solid rgb(156, 143, 143);
+    text-align: center;
+    line-height: 1.5;
+    padding: 50px;
+    margin: 0px;
+    color: blue;
+    font-size: 30px;
+}#getinput1,#getinput2{
+    width: 20%;
+    
+}
+
+body {
+    background-color: #f0a4a4;
+}
+
+button ,a{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: 1px solid black;
+    padding: 50px;
+}
+
+button:hover ,a:hover {
+    border: 2px solid rgb(255, 0, 0);
+    color: white;
+    background-color: rgb(49, 42, 42);
+}
+li{
+    list-style: none;
+    padding: 5px;
+    margin-top: 10px;
+}
+a{
+    margin-right: 50px;
+    text-decoration: none;
+    padding: 5px;
+}
+h1{
+    color: rgb(231, 34, 34);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 500%;
+}
